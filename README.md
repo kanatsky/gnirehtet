@@ -1,35 +1,10 @@
-# Gnirehtet (v2.3)
-
-This project provides **reverse tethering** over `adb` for Android: it
-allows devices to use the internet connection of the computer they are plugged
-on. It does not require any _root_ access (neither on the device nor on the
-computer). It works on _GNU/Linux_, _Windows_ and _Mac OS_.
-
-Currently, it relays [TCP] and [UDP] over [IPv4] traffic, but it does not
-support [IPv6] (yet?).
-
-[TCP]: https://en.wikipedia.org/wiki/Transmission_Control_Protocol
-[UDP]: https://fr.wikipedia.org/wiki/User_Datagram_Protocol
-[IPv4]: https://en.wikipedia.org/wiki/IPv4
-[IPv6]: https://en.wikipedia.org/wiki/IPv6
+adb devices , check ZSTM. win: gnirehtet start, accecpt vpn connection on current usb device. 
+tcp/udp ipv4 only.
 
 
-## Flavors
-
-Two implementations of _Gnirehtet_ are available:
- - one in **Java**;
- - one in **Rust**.
 
 
-### Which one to choose?
 
-Use the **Rust** implementation. The native binary consumes less CPU and memory,
-and does not require a _Java_ runtime environment.
-
-The relay server of _Gnirehtet_ was initially only implemented in Java. As a
-benefit, the same "binary" runs on every platform having _Java 8_ runtime
-installed. It is still maintained to provide a working alternative in case of
-problems with the Rust version.
 
 
 ## Requirements
