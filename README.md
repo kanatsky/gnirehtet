@@ -1,10 +1,14 @@
-adb devices , check ZSTM. win: gnirehtet start, accecpt vpn connection on current usb device. 
+adb devices , check z/s/t/m 
+
+win: gnirehtet start > accecpt vpn connection on current usb device. 
+
 tcp/udp ipv4 only.
 
+cmd window is active process, closing it  
 
+gnirehtet autorun
 
-
-
+#src md
 
 
 ## Requirements
